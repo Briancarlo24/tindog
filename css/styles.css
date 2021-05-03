@@ -59,22 +59,22 @@ body {
 /************ Features Section*********/
 #features {
   background-color: #fff;
-  padding: 10% 12%;
+  padding: 10% 15%;
   position: relative;
   z-index: 1;
 }
 
 .col-feature-content {
-  padding: 3%;
+  padding: 5%;
 }
 
 .feature-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .feature-desc {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #8f8f8f;
 }
 
@@ -184,13 +184,13 @@ body {
 /*****CTA Section******/
 #cta {
   background-color: #ff4c68;
-  padding: 7% 20%;
+  padding: 7% 15%;
 }
 
 
 .cta-title {
   font-family: Montserrat;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
@@ -206,6 +206,7 @@ body {
 .social-media {
   cursor: pointer;
   margin-bottom: 2%;
+  font-size: 3em;
 }
 
 .social-media > i:hover {
