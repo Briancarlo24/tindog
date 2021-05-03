@@ -48,7 +48,7 @@ body {
   font-family: "Montserrat";
   font-size: 1.2rem;
   font-weight: light;
-  margin: 0 1vw;
+  margin: 0 30px;
 }
 
 /* Download Button */
@@ -222,7 +222,7 @@ body {
 }
 
 .social-media>i {
-  padding: 10px 15px 0;
+  padding: 10px 20px 0;
 }
 
 .footer-text {
