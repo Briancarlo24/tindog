@@ -8,7 +8,7 @@ body {
 
 /* Navigation */
 .container-padding {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 .logo {
@@ -44,17 +44,24 @@ body {
 
 /* Download Button */
 .download-button {
-  margin-right: 15px;
+  margin-right: .3vw;
 }
 
 /* Navigation Image */
 .img-rotate {
+  height: auto;
+  position: absolute;
   transform: rotate(25deg);
+  right: 25%;
+  width: 20vw;
 }
 
 /************ Features Section*********/
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 .col-feature-content {
@@ -130,12 +137,20 @@ body {
   margin-bottom: 50px;
 }
 
-.pricing-title{
+.pricing-title {
   font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: bold;
   line-height: 1.5;
 }
 
+.card-body li {
+  color: #8f8f8f;
+}
+
 .pricing-desc {
+  color: #8f8f8f;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
@@ -162,4 +177,45 @@ body {
   background-color: #d83e56;
   border-color: #ff4c68;
   color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  #features {
+    padding: 7% 10%;
+  }
+
+  .container-padding {
+    padding: 3% 10% 5%;
+  }
+
+  .img-rotate {
+    position: static;
+    transform: rotate(0);
+    width: 30vw;
+  }
+
+  .nav-img-content {
+    margin: 0 auto;
+  }
+
+  .col-feature-content {
+    padding: 7% 25%;
+  }
+
+  .feature-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .feature-desc {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+  }
+
+
+
 }
