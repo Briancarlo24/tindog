@@ -59,21 +59,22 @@ body {
 /************ Features Section*********/
 #features {
   background-color: #fff;
-  padding: 7% 15%;
+  padding: 10% 12%;
   position: relative;
   z-index: 1;
 }
 
 .col-feature-content {
-  padding: 5% 7%;
+  padding: 3%;
 }
 
 .feature-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
 .feature-desc {
+  font-size: 1.3rem;
   color: #8f8f8f;
 }
 
@@ -101,7 +102,7 @@ body {
 
 .carousel-item {
   transition: transform 0.3s ease, opacity .5s ease-out;
-  padding: 7% 5% 8%;
+  padding: 7% 5% 5%;
 }
 
 .testimonial-image {
@@ -130,15 +131,16 @@ body {
 
 /************ Pricing Section*********/
 #pricing {
-  padding: 7% 15%;
+  padding: 9% 15%;
+  text-align: center;
 }
 
 .pricing-header-container {
-  margin-bottom: 50px;
+  margin-bottom: 7%;
 }
 
 .pricing-title {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-family: Montserrat;
   font-weight: bold;
   line-height: 1.5;
@@ -179,6 +181,47 @@ body {
   color: #fff;
 }
 
+/*****CTA Section******/
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 20%;
+}
+
+
+.cta-title {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+/*****Footer Section******/
+#footer {
+  padding: 5% 15% 4%;
+  text-align: center;
+}
+
+.social-media {
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.social-media > i:hover {
+  color: #ff4c68;
+}
+
+.social-media > i {
+  padding: 10px 15px 0;
+}
+
+.footer-text {
+  color: #8f8f8f;
+}
+
+
+/***** Mobile Responsive Design ******/
 @media screen and (max-width: 992px) {
   #title {
     text-align: center;
@@ -215,7 +258,11 @@ body {
     color: #8f8f8f;
     font-size: 1.5rem;
   }
+}
 
+/* Pricing Section */
 
-
+.col-body {
+  margin: 0 auto 50px;
+  max-width: 500px;
 }
