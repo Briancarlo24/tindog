@@ -4,9 +4,38 @@ font-family: 'Ubuntu', sans-serif;
 **/
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-/* Navigation */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+
+
+/****** Headings ******/
+.header-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.header-title-2 {
+  font-size: 3rem;
+}
+
+.header-title-3 {
+  font-size: 2.5rem;
+}
+
+/*********** Navigation ***********/
 .container-padding {
   padding: 2% 15% 10%;
 }
@@ -18,19 +47,6 @@ body {
 .logo {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
-}
-
-#title {
-  background-color: #ff4c68;
-}
-
-.header-title {
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-.logo {
   font-weight: bold;
 }
 
@@ -42,13 +58,13 @@ body {
   padding-bottom: 2.2rem;
   padding-top: 1.2rem;
   padding-left: 15px;
+
 }
 
 .nav-link {
   font-family: "Montserrat";
   font-size: 1.2rem;
-  font-weight: light;
-  margin: 0 30px;
+  margin: 4px 12px;
 }
 
 /* Download Button */
@@ -68,7 +84,7 @@ body {
 /************ Features Section*********/
 #features {
   background-color: #fff;
-  padding: 10% 15%;
+  padding: 7% 10%;
   position: relative;
   z-index: 1;
 }
@@ -79,7 +95,6 @@ body {
 
 .feature-title {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .feature-desc {
@@ -121,15 +136,8 @@ body {
   margin: 20px;
 }
 
-.testimonial-title {
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -141,18 +149,15 @@ body {
 /************ Pricing Section*********/
 #pricing {
   padding: 9% 15%;
-  text-align: center;
+}
+
+.col-body {
+  margin: 0 auto 50px;
+  min-width: 400px;
 }
 
 .pricing-header-container {
   margin-bottom: 7%;
-}
-
-.pricing-title {
-  font-size: 2.3rem;
-  font-family: Montserrat;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .card-body li {
@@ -190,25 +195,20 @@ body {
   color: #fff;
 }
 
-/*****CTA Section******/
+/**********CTA Section***********/
 #cta {
   background-color: #ff4c68;
   padding: 7% 15%;
 }
 
 .cta-title {
-  font-family: Montserrat;
   font-size: 4.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
   margin-bottom: 7%;
 }
 
 /*****Footer Section******/
 #footer {
   padding: 5% 15% 4%;
-  text-align: center;
 }
 
 .social-media {
@@ -271,5 +271,5 @@ body {
 /* Pricing Section */
 .col-body {
   margin: 0 auto 50px;
-  max-width: 500px;
+  max-width: 515px;
 }
