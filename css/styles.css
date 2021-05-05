@@ -69,7 +69,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Download Button */
 .download-button {
-  margin-right: .3vw;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 /* Navigation Image */
@@ -208,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*****Footer Section******/
 #footer {
-  padding: 5% 15% 4%;
+  padding: 7% 15% 4%;
 }
 
 .social-media {
